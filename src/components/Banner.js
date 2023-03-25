@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import headerImg from "../assets/img/dd.png";
+import headerImg from "../assets/img/header-img.svg";
 import { useState, useEffect } from "react";
 
 export const Banner = () => {
@@ -7,8 +7,8 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
-  const period = 2000;
-  const [delta, setDelta] = useState(300 - Math.random * 100);
+  const period = 1000;
+  const [delta, setDelta] = useState(200 - Math.random * 100);
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -48,9 +48,9 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Hello and Welcome</span>
+            <h1>{"I am a "}</h1>
             <h1>
-              {"I am a "}
-              <span className="wrap">{text}</span>
+              <span className="wrap"> {"-" + text}</span>
             </h1>
             <p>
               Currently I am persuing B.Tech in CSE at Institute of Enginnering
