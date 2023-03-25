@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/dd.png";
 import { useState, useEffect } from "react";
 
 export const Banner = () => {
