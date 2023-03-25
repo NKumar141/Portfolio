@@ -47,12 +47,15 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Hello There !</span>
+            <span className="tagline">Hello and Welcome</span>
             <h1>
-              {"Hi i am a "}
+              {"I am a "}
               <span className="wrap">{text}</span>
             </h1>
-            <p>lets see shal we ? . ok . hmm . mmhumm .</p>
+            <p>
+              Currently I am persuing B.Tech in CSE at Institute of Enginnering
+              and Management.Kolkata
+            </p>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header image" />
