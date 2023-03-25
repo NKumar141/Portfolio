@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 import { useState, useEffect } from "react";
 
@@ -54,9 +53,6 @@ export const Banner = () => {
               <span className="wrap">{text}</span>
             </h1>
             <p>lets see shal we ? . ok . hmm . mmhumm .</p>
-            <button>
-              <ArrowRightCircle size={30} />
-            </button>
           </Col>
           <Col xs={12} xl={7} md={6}>
             <img src={headerImg} alt="Header image" />

@@ -49,13 +49,19 @@ export const Skills = () => {
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
-                  <h5>Brand Identity</h5>
+                  <h5>Flutter Development</h5>
                 </div>
                 <div className="item">
-                  <h5>Logo Design</h5>
+                  <h5>Firebase</h5>
                 </div>
                 <div className="item">
-                  <h5>Web Development</h5>
+                  <h5>Data Structures and Algorithm</h5>
+                </div>
+                <div className="item">
+                  <h5>Data Analytics with Python</h5>
+                </div>
+                <div className="item">
+                  <h5>Amazon Web Services</h5>
                 </div>
               </Carousel>
             </div>
