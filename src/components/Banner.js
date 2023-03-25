@@ -46,7 +46,7 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} xl={7} md={6}>
+          <Col xs={12} md={6} xl={7}>
             <span className="tagline">Hello There !</span>
             <h1>
               {"Hi i am a "}
@@ -54,7 +54,7 @@ export const Banner = () => {
             </h1>
             <p>lets see shal we ? . ok . hmm . mmhumm .</p>
           </Col>
-          <Col xs={12} xl={7} md={6}>
+          <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header image" />
           </Col>
         </Row>
