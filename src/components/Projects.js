@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard.js";
-import projImg1 from "../assets/img/project-img1.png";
+import jee from "../assets/img/jee.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 import TrackVisibility from "react-on-screen";
@@ -10,7 +10,7 @@ export const Projects = () => {
     {
       title: "JEE Notes App",
       description: "Flutter Develpoment",
-      imgUrl: projImg1,
+      imgUrl: jee,
     },
   ];
 
